@@ -1,0 +1,14 @@
+;	STMicroelectronics dependencies file
+
+[Version]
+Keyword=ST7Project
+Number=1.3
+
+[Root.Source Files.mapping.asm.Config.0]
+ExternDep= mapping.asm
+
+[Root.Source Files.src\main.asm.Config.0]
+ExternDep= src\main.asm "include files\mapping.inc" "c:\program files (x86)\stmicroelectronics\st_toolset\asm\include\stm8s105k.inc"
+
+[Root.Include Files...\external dep\stm8s105k.asm.Config.0]
+ExternDep= "..\external dep\stm8s105k.asm"

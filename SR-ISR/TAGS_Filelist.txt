@@ -1,0 +1,7 @@
+mapping.asm
+src\main.asm
+include\stm8s105c6.asm
+include\stm8s105c6.inc
+mapping.inc
+..\..\..\program files (x86)\stmicroelectronics\st_toolset\asm\include\stm8s105c6.inc
+..\..\..\program files (x86)\stmicroelectronics\st_toolset\asm\include\stm8s105c_s.inc
